@@ -4,7 +4,7 @@
 
 # Overview
 
-Welcome to my professional webpage! This project showcases my skills and expertise in [your field or industry]. The webpage includes sections such as About Me, Projects, and Contact, providing a comprehensive view of my professional work and achievements.
+Welcome to my professional webpage! This project showcases my skills and expertise in Software and Web Development. The webpage includes sections such as About Me, Projects, and Contact, providing a comprehensive view of my professional work and achievements.
 
 # Features
 
@@ -43,6 +43,10 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 # Licence
 
 None Yet
+
+# Design Choice
+
+This webpage is designed for a professional and user-friendly experience. Semantic HTML tags improve accessibility and SEO. The responsive layout, using Flexbox and media queries, ensures it looks great on all devices. The sticky navbar aids navigation, and custom fonts and colours add a polished look.
 
 # Contact
 
