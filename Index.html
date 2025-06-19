@@ -5,9 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Personal Webpage</title>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
+      <section class="hero">
+        <h1>Hi, I'm [Your Name]</h1>
+        <p>Professional Software & Web Developer</p>
+        <a href="resume.pdf" class="cta-btn" download>Download Resume</a>
+      </section>
       <div class="banner">
         <h1>Welcome to My Personal Webpage</h1>
         <p>Showcasing Excellence in Software & Web Development</p>
@@ -169,8 +178,58 @@
         >
           <img src="images/tiktok.svg" alt="TikTok" />
         </a>
+        <a
+          href="https://slack.com/"
+          target="_blank"
+          rel="noopener"
+          aria-label="Slack"
+        >
+          <img src="images/slack.svg" alt="Slack" />
+        </a>
+        <a
+          href="https://pinterest.com/"
+          target="_blank"
+          rel="noopener"
+          aria-label="Pinterest"
+        >
+          <img src="images/pinterest.svg" alt="Pinterest" />
+        </a>
+        <a
+          href="https://slack.com/"
+          target="_blank"
+          rel="noopener"
+          aria-label="Slack Overview"
+        >
+          <img src="images/slack-overview.svg" alt="Slack Overview" />
+        </a>
+        <a
+          href="https://reddit.com/"
+          target="_blank"
+          rel="noopener"
+          aria-label="Reddit"
+        >
+          <img src="images/reddit.svg" alt="Reddit" />
+        </a>
       </div>
       <p>&copy; 2025 My Personal Webpage</p>
     </footer>
+    <button id="backToTop" title="Back to top">&#8679;</button>
+    <script>
+      // Back to Top Button
+      const backToTop = document.getElementById("backToTop");
+      window.onscroll = function () {
+        if (
+          document.body.scrollTop > 200 ||
+          document.documentElement.scrollTop > 200
+        ) {
+          backToTop.style.display = "block";
+        } else {
+          backToTop.style.display = "none";
+        }
+      };
+      backToTop.onclick = function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      };
+    </script>
   </body>
 </html>
