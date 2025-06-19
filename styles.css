@@ -281,6 +281,25 @@ main {
   }
 }
 
+/* Footer social media icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 0.5rem;
+}
+.social-icons a img {
+  width: 28px;
+  height: 28px;
+  filter: grayscale(0.3);
+  transition: filter 0.2s, transform 0.2s;
+}
+.social-icons a img:hover {
+  filter: grayscale(0) drop-shadow(0 2px 6px #d89494);
+  transform: scale(1.1);
+}
+
 
 
 
