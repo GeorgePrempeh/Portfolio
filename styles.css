@@ -378,6 +378,7 @@ main {
   background: var(--primary-navy);
   color: #fff;
   padding: 2rem 1rem;
+  text-align: center;
 }
 .section-gray {
   background: var(--soft-gray);
@@ -431,6 +432,42 @@ main {
 .btn-teal:hover {
   background: #b2ebf2;
   color: #113069;
+}
+
+.graphics-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2.5rem 0;
+}
+.graphic-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(17,48,105,0.08);
+  padding: 1.5rem 1.2rem 1.2rem 1.2rem;
+  max-width: 320px;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.graphic-card:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 8px 32px #26c6da33;
+}
+.graphic-card img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 1rem;
+}
+.graphic-card h3 {
+  margin: 0.5rem 0 0.3rem 0;
+  color: var(--primary-navy, #113069);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.graphic-card p {
+  color: #22356f;
+  font-size: 1rem;
 }
 
 
