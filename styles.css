@@ -127,8 +127,8 @@ nav ul.navbar li.logo {
 nav ul.navbar li.logo img {
     height: 32px;
     width: auto;
-    vertical-align: middle;
-    display: block;
+    vertical-align: far left;
+    display: far left;
 }
 
 .navbar-container {
