@@ -8,20 +8,31 @@
   </head>
   <body>
     <header>
-      <nav class="navbar">
-        <div class="navbar-left">
-          <div class="logo"><a href="#Logo">Logo</a></div>
-          <ul>
-            <li><a href="#About Me">About Us</a></li>
-            <li><a href="#Our Products">Our Products</a></li>
-            <li><a href="#Our Services">Our Services</a></li>
-            <li><a href="#How It Works">How It Works</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-        <div class="navbar-right">
-          <div class="search"><a href="#Search">Search</a></div>
+      <div class="banner">
+        <h1>Welcome to My Personal Webpage</h1>
+        <p>Showcasing Excellence in Software & Web Development</p>
+      </div>
+      <nav class="navbar-container">
+        <ul class="navbar">
+          <li class="logo">
+            <a href="Index.html">
+              <img
+                src="images/A free source image of digital technology.jpeg"
+                alt="Logo"
+                style="height: 32px; width: auto; vertical-align: middle"
+              />
+            </a>
+          </li>
+          <li><a href="Index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="search-container">
+          <input type="text" placeholder="Search..." class="search-input" />
+          <button class="search-btn">Search</button>
         </div>
       </nav>
     </header>
@@ -40,6 +51,23 @@
           alt="Digital Technology"
         />
       </section>
+      <section id="gallery">
+        <h1>Gallery</h1>
+        <div class="gallery-grid">
+          <img
+            src="images/A free source image of digital technology.jpeg"
+            alt="Gallery Image 1"
+          />
+          <img
+            src="images/A free source image of digital technology.jpeg"
+            alt="Gallery Image 2"
+          />
+          <img
+            src="images/A free source image of digital technology.jpeg"
+            alt="Gallery Image 3"
+          />
+        </div>
+      </section>
       <section id="projects">
         <h1>Projects</h1>
         <p>
@@ -47,6 +75,32 @@
           expertise. Each project highlights my commitment to quality and
           innovation in Software and Web Development.
         </p>
+      </section>
+      <section id="testimonies">
+        <h1>Testimonies</h1>
+        <div class="testimonies-list">
+          <blockquote>
+            <p>
+              "Outstanding work! The website exceeded my expectations and was
+              delivered on time."
+            </p>
+            <footer>- Alex Smith, Client</footer>
+          </blockquote>
+          <blockquote>
+            <p>
+              "Very professional and easy to work with. Highly recommended for
+              any web project."
+            </p>
+            <footer>- Jamie Lee, Business Owner</footer>
+          </blockquote>
+          <blockquote>
+            <p>
+              "Creative solutions and great attention to detail. Will hire
+              again!"
+            </p>
+            <footer>- Morgan Brown, Entrepreneur</footer>
+          </blockquote>
+        </div>
       </section>
       <section id="contact">
         <h1>Contact</h1>
