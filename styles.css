@@ -364,6 +364,75 @@ main {
   transform: scale(1.08);
 }
 
+/* Professional color palette samples */
+:root {
+  --primary-navy: #113069;
+  --accent-gold: #ffd700;
+  --accent-teal: #26c6da;
+  --soft-gray: #f5f5f5;
+  --emerald: #43a047;
+  --coral: #ff7043;
+}
+
+.section-navy {
+  background: var(--primary-navy);
+  color: #fff;
+  padding: 2rem 1rem;
+}
+.section-gray {
+  background: var(--soft-gray);
+  color: #22356f;
+  padding: 2rem 1rem;
+}
+.section-gold {
+  background: var(--accent-gold);
+  color: #113069;
+  padding: 2rem 1rem;
+}
+.section-teal {
+  background: var(--accent-teal);
+  color: #fff;
+  padding: 2rem 1rem;
+}
+.section-emerald {
+  background: var(--emerald);
+  color: #fff;
+  padding: 2rem 1rem;
+}
+.section-coral {
+  background: var(--coral);
+  color: #fff;
+  padding: 2rem 1rem;
+}
+
+.btn-gold {
+  background: var(--accent-gold);
+  color: #113069;
+  border: none;
+  border-radius: 30px;
+  padding: 0.7rem 2rem;
+  font-weight: 700;
+  transition: background 0.3s, color 0.3s;
+}
+.btn-gold:hover {
+  background: #fff8e1;
+  color: #113069;
+}
+
+.btn-teal {
+  background: var(--accent-teal);
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 0.7rem 2rem;
+  font-weight: 700;
+  transition: background 0.3s, color 0.3s;
+}
+.btn-teal:hover {
+  background: #b2ebf2;
+  color: #113069;
+}
+
 
 
 
