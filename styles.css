@@ -280,6 +280,12 @@ main {
     font-size: 0.95rem;
   }
 }
+.banner-graphics {
+  margin-top: 0.5rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
 
 /* Footer social media icons */
 .social-icons {
